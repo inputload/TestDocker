@@ -30,7 +30,7 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 # Установка зависимостей из файла requirements.txt
 
-COPY .. .
+COPY . .
 # Переносим все файлы
 
 CMD python manage.py runserver 0.0.0.0:8000
