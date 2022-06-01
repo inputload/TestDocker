@@ -13,7 +13,8 @@ RUN apk update && apk add \
     libffi-dev \
     openssl-dev cargo \
     cargo \
-    zlib-dev
+    zlib-dev \
+    tzdata
 # RUN - команда которая выполняет действия которые ей пропишем
 # apk update\add - команда для обновления\установки программ на контейнер
 
